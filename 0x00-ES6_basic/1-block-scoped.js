@@ -1,4 +1,3 @@
-// 1-block-scoped.js
 export default function taskBlock(trueOrFalse) {
   const task = false;
   const task2 = true;
@@ -8,6 +7,7 @@ export default function taskBlock(trueOrFalse) {
     const task2 = false;
     if (task && task2) {
       return [task, task2];
+    }
   }
 
   return [task, task2];
