@@ -1,3 +1,4 @@
+// 0x05-Node_JS_basic/2-read_file.js
 const fs = require('fs');
 
 module.exports = function countStudents (path) {
